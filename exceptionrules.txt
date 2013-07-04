@@ -1340,3 +1340,6 @@ computerbase.de#@##afc-box
 @@||cduwatch.de^$document
 ! Piksa.info
 @@||piksa.info^$document
+! DuckDuckGo
+@@||duckduckgo.com/y.js?*
+@@||duckduckgo.com###ads
