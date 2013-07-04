@@ -1256,4 +1256,5 @@
 @@||pagead2.googlesyndication.com/*$domain=stadt-bremerhaven.de
 ! DuckDuckGo
 @@||duckduckgo.com/y.js?*
-@@||duckduckgo.com###ads
+! FutureZone.at
+@@||wa.kurier.at^$domain=futurezone.at
