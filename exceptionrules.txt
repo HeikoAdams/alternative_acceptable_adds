@@ -1332,3 +1332,9 @@ computerbase.de#@##afc-box
 @@||stats.g.doubleclick.net^$script,image
 @@||doubleclick.net/activity^$subdocument,image
 @@||fls.doubleclick.net^$subdocument,image
+! IndiskretionEhrensache,de
+@@||indiskretionehrensache.de^$document
+! Stadt-Bremerhaven,de (Cashy)
+@@||stadt-bremerhaven.de^$document
+! CDUWatch.de
+@@||cduwatch.de^$document
