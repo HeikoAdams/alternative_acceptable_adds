@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Expires: 1 days
-! Amazon text ads (https://adblockplus.org/forum/viewtopic.php?f=12&t=9791)
+! Amazon text ads
 @@||amazon.com^$elemhide
 @@||amazon.ca^$elemhide
 @@||amazon.de^$elemhide
@@ -10,66 +10,7 @@
 @@||amazon.it^$elemhide
 @@||amazon.co.jp^$elemhide
 @@||amazon.cn^$elemhide
-! Text/image ads on heise.de (https://adblockplus.org/forum/viewtopic.php?f=12&t=9803)
-heise.de#@#a[href^="http://pubads.g.doubleclick.net/"]
-heise.de#@#.teaser_adliste
-heise.de#@#.us_ad
-||heise.de/avw-bin/ivw/CP/difftest/casey$domain=heise.de
-@@||adcloud.net^$domain=heise.de,script,image,document,subdocument
-! ixquick/startpage.com sponsored search results (https://adblockplus.org/forum/viewtopic.php?f=12&t=10732)
-@@||startpage.com^$elemhide
-@@||ixquick.com^$elemhide
-@@||ixquick.de^$elemhide
-||ixquick.com*px.gif?ch=2&rn=*$domain=ixquick.com
-||startpage.com*px.gif?ch=2&rn=*$domain=startpage.com
-! Google text ads above, under and right side of search results on Golem.de (https://adblockplus.org/forum/viewtopic.php?f=12&t=11789)
-@@||google.com/uds/?file=ads^$script,domain=suche.golem.de
-@@||google.com/ads/search/module/ads/*/search.js$domain=suche.golem.de
-@@||google.com/uds/afs^$subdocument,document,domain=suche.golem.de
-@@||google.com/aclk^$subdocument,domain=suche.golem.de
-@@||googleadservices.com/pagead/aclk^$subdocument,domain=suche.golem.de
-golem.de#@##narrow_ad_unit
-golem.de#@##wide_ad_unit
-golem.de#@#.wide_ads
-! Google text ads between article and comments on Golem.de (https://adblockplus.org/forum/viewtopic.php?f=12&t=11788)
-@@||golem.de/_js/rl_art_afc1.js
-@@||pagead2.googlesyndication.com/pagead/*^$script,domain=www.golem.de
-@@||googleads.g.doubleclick.net/pagead/ads^*^url=http%3A%2F%2Fwww.golem.de%2Fnews%2F$script,domain=www.golem.de
-! wg-gesucht.de Google and Plista text ads (https://adblockplus.org/forum/viewtopic.php?f=12&t=13166)
-@@||googletagservices.com/tag/js/gpt.js$domain=wg-gesucht.de
-@@||partner.googleadservices.com/gampad/google_ads_gpt.js$domain=wg-gesucht.de
-@@||googleads.g.doubleclick.net/aclk^$subdocument,domain=wg-gesucht.de
-@@||googleadservices.com/pagead/aclk^$subdocument,domain=wg-gesucht.de
-@@||pagead2.googlesyndication.com/pagead/abglogo/abg-*.png|$domain=wg-gesucht.de
-@@||g.doubleclick.net/gampad/ads^$script,domain=wg-gesucht.de
-@@||wg-gesucht.de/google_ads_liste_o_afc.js
-@@||tpc.googlesyndication.com/pagead/abglogo/abg-*.png|$image
-@@||tpc.googlesyndication.com/pagead/images/mobile_unified_button_icon_black.png|$image
-wg-gesucht.de#@#div[id^="div-gpt-ad-"]
-wg-gesucht.de#@##google_ads_frame1
-wg-gesucht.de#@##liste_top_ads_wrapper
-wg-gesucht.de#@#div[id^="google_ads_"]
-wg-gesucht.de#@#a[target="_blank"][href^="http://affiliate.immobilienscout24.de/go.cgi?pid="]
-! ecosia.org sponsored search results (https://adblockplus.org/forum/viewtopic.php?f=12&t=10495)
-@@||google.com/uds/$script,subdocument,document,domain=ecosia.org
-@@||google.*/cse?$subdocument,domain=ecosia.org,document
-@@||googleadservices.com/pagead/aclk^$subdocument,domain=ecosia.org
-@@||google.com/aclk^$subdocument,domain=ecosia.org
-! winfuture.de content ads (https://adblockplus.org/forum/viewtopic.php?f=12&t=9282&p=73934#p73934)
-winfuture.de#@#.adsense_container
-winfuture.de#@##ad_replace_div_1
-@@||o0.winfuture.de^$script,image,domain=winfuture.de
-@@||pagead2.googlesyndication.com/pagead/$script,domain=winfuture.de
-@@||googleads.g.doubleclick.net/pagead/ads?*^ad_type=text^$script,domain=winfuture.de
-winfuture.de###news_content > #ad_replace_div_1
-! winfuture.de search ads (https://adblockplus.org/forum/viewtopic.php?f=12&t=14326)
-@@||google.com/uds/$script,subdocument,document,domain=winfuture.de
-@@||google.com/ads/search/module/ads/*/search.js$script,domain=winfuture.de
-winfuture.de#@##adblock1
-winfuture.de#@##adblock2
-@@||googleadservices.com/pagead/aclk^$subdocument,domain=winfuture.de
-@@||google.com/aclk^$subdocument,domain=winfuture.de
-! Google search ads (https://adblockplus.org/forum/viewtopic.php?f=12&t=15633)
+! Google search ads
 @@||www.google.com^$elemhide,~third-party
 ||www.google.com/images/phd/px.gif
 @@||www.google.ag^$elemhide,~third-party
@@ -1305,41 +1246,14 @@ winfuture.de#@##adblock2
 ! Google Ad Services
 @@||googleadservices.com^$document
 @@||googleadservices.com^$third-party
-! computerbase.de ads (https://adblockplus.org/forum/viewtopic.php?f=12&t=15362)
-@@||pagead2.googlesyndication.com/pagead/$script,domain=computerbase.de
-@@||g.doubleclick.net/pagead/ads?*^num_ads=1^*^ad_type=text^$script,domain=computerbase.de
-@@||g.doubleclick.net/pagead/ads?*^num_ads=3^*^ad_type=text^$script,domain=computerbase.de
-computerbase.de#@##afc-box
-! Conversion tracking whitelisting (https://adblockplus.org/forum/viewtopic.php?f=12&t=13771)
-! DoubleClick/Adsense conversion tracking #1
-@@||googleads.g.doubleclick.net/pagead/viewthroughconversion/$subdocument,image
-@@||googleadservices.com/pagead/conversion_async.js
-@@||googleadservices.com/pagead/conversion/$image,subdocument
-@@||google.*/ads/user-lists/$image,subdocument,third-party
-@@/pagead/conversion/*$image,subdocument
-@@/pagead/viewthroughconversion/*$image,subdocument
-! DoubleClick/Adsense conversion tracking #2
-@@||googleadservices.com/pagead/conversion.js
-@@||googleads.g.doubleclick.net/pagead/conversion_debug_overlay.js
-@@||googleadservices.com/pagead/conversion_debug_overlay.js
-@@/pagead/conversion_debug_overlay.js
-@@||doubleclick.net/pagead/conversion/$image,subdocument
-@@||googleadservices.com/pagead/viewthroughconversion/$image,subdocument
-@@||doubleclick.net/pagead/conversion.js
-@@||doubleclick.net/pagead/conversion_async.js
-@@/pagead/conversion.js
-@@/pagead/conversion_async.js
-@@||stats.g.doubleclick.net^$script,image
-@@||doubleclick.net/activity^$subdocument,image
-@@||fls.doubleclick.net^$subdocument,image
+! Golem.de
+@@||doubleclick.net^$domain=golem.de
+@@||pagead2.googlesyndication.com^$domain=golem.de
 ! IndiskretionEhrensache,de
-@@||indiskretionehrensache.de^$document
+@@||stilanzeigen.net/*$domain=indiskretionehrensache.de
 ! Stadt-Bremerhaven,de (Cashy)
-@@||stadt-bremerhaven.de^$document
-! CDUWatch.de
-@@||cduwatch.de^$document
-! Piksa.info
-@@||piksa.info^$document
+@@||pubads.g.doubleclick.net^$domain=stadt-bremerhaven.de
+@@||pagead2.googlesyndication.com/*$domain=stadt-bremerhaven.de
 ! DuckDuckGo
 @@||duckduckgo.com/y.js?*
 @@||duckduckgo.com###ads
