@@ -1338,3 +1338,5 @@ computerbase.de#@##afc-box
 @@||stadt-bremerhaven.de^$document
 ! CDUWatch.de
 @@||cduwatch.de^$document
+! Piksa.info
+@@||piksa.info^$document
