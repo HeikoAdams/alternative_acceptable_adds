@@ -1249,12 +1249,13 @@
 ! Golem.de
 @@||doubleclick.net^$domain=golem.de,~object
 @@||pagead2.googlesyndication.com^$domain=golem.de,~object
-@@||a.ligatus.com^$domain=golem.de
+@@||a.ligatus.com^$domain=golem.de,~object
 ! IndiskretionEhrensache,de
-@@||stilanzeigen.net/*$domain=indiskretionehrensache.de
+@@||stilanzeigen.net/*$domain=indiskretionehrensache.de,~object
 ! Stadt-Bremerhaven,de (Cashy)
-@@||pubads.g.doubleclick.net^$domain=stadt-bremerhaven.de
-@@||pagead2.googlesyndication.com/*$domain=stadt-bremerhaven.de
+@@||doubleclick.net^$domain=stadt-bremerhaven.de,~object
+@@||pagead2.googlesyndication.com/*$domain=stadt-bremerhaven.de,~object
+@@||stadt-bremerhaven.de/grafiken/*
 ! DuckDuckGo
 @@||duckduckgo.com/y.js?*
 ! FutureZone.at
