@@ -1247,8 +1247,8 @@
 @@||googleadservices.com^$document
 @@||googleadservices.com^$third-party
 ! Golem.de
-@@||doubleclick.net^$domain=golem.de
-@@||pagead2.googlesyndication.com^$domain=golem.de
+@@||doubleclick.net^$domain=golem.de,~object
+@@||pagead2.googlesyndication.com^$domain=golem.de,~object
 ! IndiskretionEhrensache,de
 @@||stilanzeigen.net/*$domain=indiskretionehrensache.de
 ! Stadt-Bremerhaven,de (Cashy)
