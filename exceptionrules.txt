@@ -49,3 +49,15 @@
 @@||oz-online.de/openx/*$domain=on-online.de,~object
 @@||pagead2.googlesyndication.com^$domain=on-online.de,~object
 @@||doubleclick.net^$domain=on-online.de,~object
+! OZ-Online.de
+@@||oz-online.de/openx/*$domain=oz-online.de,~object
+@@||pagead2.googlesyndication.com^$domain=oz-online.de,~object
+@@||googleads.g.doubleclick.net^$domain=oz-online.de,~object
+! Common exception for on-online.de and oz-online.de
+@@||oz-online.de/openx/*$~object
+! NP-Coburg.de
+@@||ad.cicero-media.de^$domain=np-coburg.de,~object
+@@||doubleclick.net^$domain=np-coburg.de,~object
+! inFranken.de
+@@||doubleclick.net^$domain=infranken.de,~object
+@@||infranken.de/fileadmin/werbemittel/*$domain=infranken.de,~object
