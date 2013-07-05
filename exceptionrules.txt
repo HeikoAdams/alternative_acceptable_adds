@@ -1249,6 +1249,7 @@
 ! Golem.de
 @@||doubleclick.net^$domain=golem.de,~object
 @@||pagead2.googlesyndication.com^$domain=golem.de,~object
+@@||a.ligatus.com^$domain=golem.de
 ! IndiskretionEhrensache,de
 @@||stilanzeigen.net/*$domain=indiskretionehrensache.de
 ! Stadt-Bremerhaven,de (Cashy)
@@ -1258,3 +1259,6 @@
 @@||duckduckgo.com/y.js?*
 ! FutureZone.at
 @@||wa.kurier.at^$domain=futurezone.at
+! Zeit.de
+@@||doubleclick.net^$domain=zeit.de,~object
+@@||pagead2.googlesyndication.com^$domain=zeit.de,~object
