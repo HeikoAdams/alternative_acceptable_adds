@@ -23,6 +23,7 @@
 ! Google Ad Services
 @@||googleadservices.com^$document
 @@||googleadservices.com^$third-party
+@@||pagead2.googlesyndication.com^$domain=googleads.g.doubleclick.net,~object
 ! Golem.de
 @@||doubleclick.net^$domain=golem.de,~object
 @@||pagead2.googlesyndication.com^$domain=golem.de,~object
@@ -43,3 +44,8 @@
 ! Heise.de
 @@||doubleclick.net^$domain=heise.de,~object
 @@||pagead2.googlesyndication.com^$domain=heise.de,~object
+! ON-Online.de
+@@||on-online.de/openx/*$domain=on-online.de,~object
+@@||oz-online.de/openx/*$domain=on-online.de,~object
+@@||pagead2.googlesyndication.com^$domain=on-online.de,~object
+@@||doubleclick.net^$domain=on-online.de,~object
