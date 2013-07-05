@@ -1262,3 +1262,6 @@
 ! Zeit.de
 @@||doubleclick.net^$domain=zeit.de,~object
 @@||pagead2.googlesyndication.com^$domain=zeit.de,~object
+! Heise.de
+@@||doubleclick.net^$domain=heise.de,~object
+@@||pagead2.googlesyndication.com^$domain=heise.de,~object
