@@ -58,3 +58,10 @@
 ! inFranken.de
 @@||doubleclick.net^$domain=infranken.de,~object
 @@||infranken.de/fileadmin/werbemittel/*$domain=infranken.de,~object
+! Perun.net
+@@||perun.net/wp-content/uploads/*$domain=perun.net,~object
+! blog.wpde.org
+@@||blog.wpde.org/wp-content/themes/wpde/img/*$domain=blog.wpde.org,~object
+@@||ads.inpsy.de^$domain=blog.wpde.org,~object
+! Linuxundich.de
+@@||linuxundich.de/wp-content/themes/yoko_lui/js/advert.js$domain=linuxundich.de,~object
