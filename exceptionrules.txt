@@ -24,6 +24,7 @@
 @@||googleadservices.com^$document
 @@||googleadservices.com^$third-party
 @@||pagead2.googlesyndication.com^$domain=googleads.g.doubleclick.net,~object
+@@||doubleclick.net^$domain=googleads.g.doubleclick.net,~object
 ! Golem.de
 @@||doubleclick.net^$domain=golem.de,~object
 @@||pagead2.googlesyndication.com^$domain=golem.de,~object
@@ -65,3 +66,7 @@
 @@||ads.inpsy.de^$domain=blog.wpde.org,~object
 ! Linuxundich.de
 @@||linuxundich.de/wp-content/themes/yoko_lui/js/advert.js$domain=linuxundich.de,~object
+! MobileGeeks
+@@||pagead2.googlesyndication.com^$domain=mobilegeeks.de,~object
+@@||doubleclick.net^$domain=mobilegeeks.de,~object
+@@||assoc-amazon.de^$domain=mobilegeeks.de,~object
