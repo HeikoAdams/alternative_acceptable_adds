@@ -1,0 +1,17 @@
+! IndiskretionEhrensache,de
+@@||stilanzeigen.net/*$domain=indiskretionehrensache.de,~object
+! Stadt-Bremerhaven,de (Cashy)
+@@||doubleclick.net^$domain=stadt-bremerhaven.de,~object
+@@||pagead2.googlesyndication.com/*$domain=stadt-bremerhaven.de,~object
+@@||stadt-bremerhaven.de/grafiken/*
+! Perun.net
+@@||perun.net/wp-content/uploads/*$domain=perun.net,~object
+! blog.wpde.org
+@@||blog.wpde.org/wp-content/themes/wpde/img/*$domain=blog.wpde.org,~object
+@@||ads.inpsy.de^$domain=blog.wpde.org,~object
+! Linuxundich.de
+@@||linuxundich.de/wp-content/themes/yoko_lui/js/advert.js$domain=linuxundich.de,~object
+! MobileGeeks
+@@||pagead2.googlesyndication.com^$domain=mobilegeeks.de,~object
+@@||doubleclick.net^$domain=mobilegeeks.de,~object
+@@||assoc-amazon.de^$domain=mobilegeeks.de,~object

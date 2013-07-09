@@ -1,0 +1,29 @@
+! Golem.de
+@@||doubleclick.net^$domain=golem.de,~object
+@@||pagead2.googlesyndication.com^$domain=golem.de,~object
+@@||a.ligatus.com^$domain=golem.de,~object
+@@||adfarm.mediaplex.com^$domain=golem.de,~object
+@@||cpx.golem.de^$domain=golem.de,~object
+@@||nuggad.net^$domain=golem.de,~object
+! FutureZone.at
+@@||wa.kurier.at^$domain=futurezone.at
+! Heise.de
+@@||doubleclick.net^$domain=heise.de,~object
+@@||pagead2.googlesyndication.com^$domain=heise.de,~object
+! ON-Online.de
+@@||on-online.de/openx/*$domain=on-online.de,~object
+@@||oz-online.de/openx/*$domain=on-online.de,~object
+@@||pagead2.googlesyndication.com^$domain=on-online.de,~object
+@@||doubleclick.net^$domain=on-online.de,~object
+! OZ-Online.de
+@@||oz-online.de/openx/*$domain=oz-online.de,~object
+@@||pagead2.googlesyndication.com^$domain=oz-online.de,~object
+@@||googleads.g.doubleclick.net^$domain=oz-online.de,~object
+! Common exception for on-online.de and oz-online.de
+@@||oz-online.de/openx/*$~object
+! NP-Coburg.de
+@@||ad.cicero-media.de^$domain=np-coburg.de,~object
+@@||doubleclick.net^$domain=np-coburg.de,~object
+! inFranken.de
+@@||doubleclick.net^$domain=infranken.de,~object
+@@||infranken.de/fileadmin/werbemittel/*$domain=infranken.de,~object

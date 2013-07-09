@@ -1,0 +1,27 @@
+! Amazon text ads
+@@||amazon.com^$elemhide
+@@||amazon.de^$elemhide
+! Google search ads
+@@||www.google.com^$elemhide,~third-party
+||www.google.com/images/phd/px.gif
+@@||www.google.de^$elemhide,~third-party
+||www.google.de/images/phd/px.gif
+@@||www.google.at^$elemhide,~third-party
+||www.google.at/images/phd/px.gif
+! Google Maps
+@@||maps.google.com^$elemhide
+@@||maps.google.com^$~third-party
+@@||maps.google.at^$elemhide
+@@||maps.google.at^$~third-party
+@@||maps.google.de^$elemhide
+@@||maps.google.de^$~third-party
+! Google Static
+@@||gstatic.com^$document
+@@||gstatic.com^$third-party
+! Google Ad Services
+@@||googleadservices.com^$document
+@@||googleadservices.com^$third-party
+@@||pagead2.googlesyndication.com^$domain=googleads.g.doubleclick.net,~object
+@@||doubleclick.net^$domain=googleads.g.doubleclick.net,~object
+! DuckDuckGo
+@@||duckduckgo.com/y.js?*
