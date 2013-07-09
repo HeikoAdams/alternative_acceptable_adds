@@ -1,2 +1,22 @@
-#! /bin/bash
-curl -T "/path/to/exceptionrules.txt" ftp://user:pwd@host/path/
+CURRENTPATH=$(realpath $0)
+CURRENT=$(dirname $CURRENTPATH)
+
+#FTP transfer related settings
+WHITELIST="$CURRENT/exceptionrules.txt"
+#FTP username
+USER=""
+#FTP password
+PWD=""
+#FTP host
+HOST=""
+#Path to remote file location
+PATH=""
+
+/usr/bin/curl -s -T "$WHITELIST" -u "$USER:$PWD" ftp://$HOST/$PATH 
+
+if [ $? == 0 ]
+then
+	echo "Upload succeeded"
+else
+	echo "Upload failed"
+fi
