@@ -29,6 +29,9 @@
 @@||doubleclick.net^$domain=golem.de,~object
 @@||pagead2.googlesyndication.com^$domain=golem.de,~object
 @@||a.ligatus.com^$domain=golem.de,~object
+@@||adfarm.mediaplex.com^$domain=golem.de,~object
+@@||cpx.golem.de^$domain=golem.de,~object
+@@||nuggad.net^$domain=golem.de,~object
 ! IndiskretionEhrensache,de
 @@||stilanzeigen.net/*$domain=indiskretionehrensache.de,~object
 ! Stadt-Bremerhaven,de (Cashy)
