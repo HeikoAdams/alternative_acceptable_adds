@@ -15,3 +15,10 @@
 @@||pagead2.googlesyndication.com^$domain=mobilegeeks.de,~object
 @@||doubleclick.net^$domain=mobilegeeks.de,~object
 @@||assoc-amazon.de^$domain=mobilegeeks.de,~object
+! Mama Miez
+@@||banners.webmasterplan.com^$domain=mamamiez.de,~object
+@@||fraurieke.de/partner/*$domain=mamamiez.de
+@@||geburtstagsfee.de/images/partnerprogramm/*$domain=mamamiez.de
+! Bunte Knete
+@@||pagead2.googlesyndication.com^$domain=bunteknete.blogspot.de,~object
+@@||doubleclick.net^$domain=bunteknete.blogspot.de,~object
