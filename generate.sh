@@ -11,10 +11,11 @@ then
 	echo "Generating exceptionrules.txt ..."
 	echo -e "[Adblock Plus 2.0]\n! Expires: 1 days" > $CURRENT/exceptionrules.txt
 	echo -e "! Last update: $TIMESTAMP" >> $CURRENT/exceptionrules.txt
+	echo -e "! Misc stuff\n" >> $CURRENT/exceptionrules.txt
 	cat $CURRENT/data/misc.dat >> $CURRENT/exceptionrules.txt
-	echo -e "\n" >> $CURRENT/exceptionrules.txt
+	echo -e "\n! Blogs\n" >> $CURRENT/exceptionrules.txt
 	cat $CURRENT/data/blogs.dat >> $CURRENT/exceptionrules.txt
-	echo -e "\n" >> $CURRENT/exceptionrules.txt
+	echo -e "\n! News\n" >> $CURRENT/exceptionrules.txt
 	cat $CURRENT/data/news.dat >> $CURRENT/exceptionrules.txt
 	echo -e "\n" >> $CURRENT/exceptionrules.txt
 	echo "Generating completed!"
