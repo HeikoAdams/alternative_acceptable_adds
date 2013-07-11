@@ -24,6 +24,8 @@
 ! NP-Coburg.de
 @@||ad.cicero-media.de^$domain=np-coburg.de,~object
 @@||doubleclick.net^$domain=np-coburg.de,~object
+@@||np-coburg.de^$elemhide
 ! inFranken.de
 @@||doubleclick.net^$domain=infranken.de,~object
 @@||infranken.de/fileadmin/werbemittel/*$domain=infranken.de,~object
+@@||infranken.de^$elemhide
