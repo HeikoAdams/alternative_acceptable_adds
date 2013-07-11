@@ -1,0 +1,5 @@
+! Facebook
+@@||facebook.com^$elemhide
+@@||fbcdn-creative-a.akamaihd.net^$domain=facebook.com,~object
+! Twitter
+@@||twitter.com^$elemhide

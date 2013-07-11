@@ -6,18 +6,27 @@ TIMESTAMP=$(date)
 
 echo $TIMESTAMP
 
-if [ -N $CURRENT/data/misc.dat ] || [ -N $CURRENT/data/blogs.dat ] || [ -N $CURRENT/data/news.dat ]
+if [ -N $CURRENT/data/misc.dat ] || [ -N $CURRENT/data/blogs.dat ] || [ -N $CURRENT/data/news.dat ] || [ -N $CURRENT/data/socialmedia.dat ]
 then
 	echo "Generating exceptionrules.txt ..."
 	echo -e "[Adblock Plus 2.0]\n! Expires: 1 days" > $CURRENT/exceptionrules.txt
-	echo -e "! Last update: $TIMESTAMP" >> $CURRENT/exceptionrules.txt
-	echo -e "! Misc stuff\n" >> $CURRENT/exceptionrules.txt
-	cat $CURRENT/data/misc.dat >> $CURRENT/exceptionrules.txt
-	echo -e "\n! Blogs\n" >> $CURRENT/exceptionrules.txt
-	cat $CURRENT/data/blogs.dat >> $CURRENT/exceptionrules.txt
-	echo -e "\n! News\n" >> $CURRENT/exceptionrules.txt
-	cat $CURRENT/data/news.dat >> $CURRENT/exceptionrules.txt
-	echo -e "\n" >> $CURRENT/exceptionrules.txt
+	echo -e "! Last update: $TIMESTAMP" >> $CURRENT/rules/exceptionrules.txt
+	echo -e "! Misc stuff\n" >> $CURRENT/rules/exceptionrules.txt
+	cat $CURRENT/data/misc.dat >> $CURRENT/rules/exceptionrules.txt
+	echo -e "\n! Blogs\n" >> $CURRENT/rules/exceptionrules.txt
+	cat $CURRENT/data/blogs.dat >> $CURRENT/rules/exceptionrules.txt
+	echo -e "\n! News\n" >> $CURRENT/rules/exceptionrules.txt
+	cat $CURRENT/data/news.dat >> $CURRENT/rules/exceptionrules.txt
+	
+	if [ -N $CURRENT/data/socialmedia.dat ]
+	then
+		echo -e "[Adblock Plus 2.0]\n! Expires: 1 days" > $CURRENT/rules/social.txt
+		echo -e "! Last update: $TIMESTAMP" >> $CURRENT/rules/social.txt
+		cat $CURRENT/data/socialmedia.dat >> $CURRENT/rules/social.txt
+		echo -e "\n" >> $CURRENT/rules/social.txt
+	fi
+	
+	echo -e "\n" >> $CURRENT/rules/exceptionrules.txt
 	echo "Generating completed!"
 
 	if [ ! -e $CURRENT/upload.sh ]
