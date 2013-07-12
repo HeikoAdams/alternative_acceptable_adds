@@ -4,12 +4,15 @@ CURRENTPATH=`realpath $0`
 CURRENT=`dirname $CURRENTPATH`
 TIMESTAMP=$(date)
 
-echo $TIMESTAMP
+if [ -e $CURRENT/rules/exceptionrules.txt ]
+then
+	/usr/bin/rm -f $CURRENT/rules/exceptionrules.txt
+fi
 
 if [ -N $CURRENT/data/misc.dat ] || [ -N $CURRENT/data/blogs.dat ] || [ -N $CURRENT/data/news.dat ] || [ -N $CURRENT/data/socialmedia.dat ]
 then
 	echo "Generating exceptionrules.txt ..."
-	echo -e "[Adblock Plus 2.0]\n! Expires: 1 days" > $CURRENT/exceptionrules.txt
+	echo -e "[Adblock Plus 2.0]\n! Expires: 1 days" > $CURRENT/rules/exceptionrules.txt
 	echo -e "! Last update: $TIMESTAMP" >> $CURRENT/rules/exceptionrules.txt
 	echo -e "! Misc stuff\n" >> $CURRENT/rules/exceptionrules.txt
 	cat $CURRENT/data/misc.dat >> $CURRENT/rules/exceptionrules.txt
@@ -20,6 +23,11 @@ then
 	
 	if [ -N $CURRENT/data/socialmedia.dat ]
 	then
+		if [ -e $CURRENT/rules/social.txt ]
+		then
+			/usr/bin/rm -f $CURRENT/rules/social.txt
+		fi
+	
 		echo -e "[Adblock Plus 2.0]\n! Expires: 1 days" > $CURRENT/rules/social.txt
 		echo -e "! Last update: $TIMESTAMP" >> $CURRENT/rules/social.txt
 		cat $CURRENT/data/socialmedia.dat >> $CURRENT/rules/social.txt
