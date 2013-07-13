@@ -24,3 +24,7 @@
 @@||doubleclick.net^$domain=bunteknete.blogspot.de,~object
 ! Gutjahr.biz
 @@||gutjahr.biz/^$elemhide
+! Netzpolitik.org
+@@||doubleclick.net^$domain=netzpolitik.org,~object
+@@||pagead2.googlesyndication.com^$domain=netzpolitik.org,~object
+@@||netzpolitik.org^$elemhide
