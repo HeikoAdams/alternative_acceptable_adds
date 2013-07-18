@@ -29,3 +29,7 @@
 @@||doubleclick.net^$domain=infranken.de,~object
 @@||infranken.de/fileadmin/werbemittel/*$domain=infranken.de,~object
 @@||infranken.de^$elemhide
+! Rhein-Zeitung
+@@||rhein-zeitung.de^$elemhide
+@@||doubleclick.net^$domain=rhein-zeitung.de,~object
+@@||pagead2.googlesyndication.com^$domain=rhein-zeitung.de,~object
