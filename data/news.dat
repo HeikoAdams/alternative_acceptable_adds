@@ -1,10 +1,12 @@
 ! Golem.de
+@@||golem.de^$elemhide
 @@||doubleclick.net^$domain=golem.de,~object
 @@||pagead2.googlesyndication.com^$domain=golem.de,~object
 @@||a.ligatus.com^$domain=golem.de,~object
 @@||adfarm.mediaplex.com^$domain=golem.de,~object
 @@||cpx.golem.de^$domain=golem.de,~object
 @@||nuggad.net^$domain=golem.de,~object
+@@||golem.de/*$domain=golem.de,~object
 ! FutureZone.at
 @@||wa.kurier.at^$domain=futurezone.at
 ! Heise.de
@@ -33,3 +35,12 @@
 @@||rhein-zeitung.de^$elemhide
 @@||doubleclick.net^$domain=rhein-zeitung.de,~object
 @@||pagead2.googlesyndication.com^$domain=rhein-zeitung.de,~object
+! Zeit Online
+@@||zeit.de^$elemhide
+@@||doubleclick.net^$domain=zeit.de,~object
+@@||googlesyndication.com^$domain=zeit.de,~object
+! Sueddeutsche
+@@||sueddeutsche.de^$elemhide
+@@||doubleclick.net^$domain=sueddeutsche.de,~object
+@@||pagead2.googlesyndication.com^$domain=sueddeutsche.de,~object
+@@||bs.serving-sys.com^$domain=sueddeutsche.de,~object
