@@ -26,5 +26,3 @@
 @@||google.com/pagead/$domain=googleads.g.doubleclick.net,~object
 ! DuckDuckGo
 @@||duckduckgo.com/y.js?*
-! Facebook
-@@||facebook.com^$elemhide
