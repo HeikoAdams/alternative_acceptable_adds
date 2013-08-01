@@ -10,8 +10,14 @@
 ! FutureZone.at
 @@||wa.kurier.at^$domain=futurezone.at
 ! Heise.de
+@@||heise.de^$elemhide
 @@||doubleclick.net^$domain=heise.de,~object
 @@||pagead2.googlesyndication.com^$domain=heise.de,~object
+@@||heise.de/icons/ho/*$domain=heise.de,~object
+@@||heisebanner.geizhals.at^$domain=heise.de,~object
+@@||ad.yieldlab.net^$domain=heise.de,~object
+@@||whitepaper.heise.de^$domain=heise.de,~object
+@@||a.ligatus.com^$domain=heise.de,~object
 ! ON-Online.de
 @@||on-online.de/openx/*$domain=on-online.de,~object
 @@||oz-online.de/openx/*$domain=on-online.de,~object
