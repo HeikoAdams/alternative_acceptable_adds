@@ -20,6 +20,8 @@ then
 	cat $CURRENT/data/blogs.dat >> $CURRENT/rules/exceptionrules.txt
 	echo -e "\n! News\n" >> $CURRENT/rules/exceptionrules.txt
 	cat $CURRENT/data/news.dat >> $CURRENT/rules/exceptionrules.txt
+	echo -e "\n! Other stuff\n" >> $CURRENT/rules/exceptionrules.txt
+	cat $CURRENT/data/others.dat >> $CURRENT/rules/exceptionrules.txt	
 	
 	echo "Generating blogrules.txt ..."
 	echo -e "[Adblock Plus 2.0]\n! Expires: 1 days" > $CURRENT/rules/blogrules.txt
@@ -36,6 +38,14 @@ then
 	cat $CURRENT/data/misc.dat >> $CURRENT/rules/newsrules.txt
 	echo -e "\n! News\n" >> $CURRENT/rules/newsrules.txt
 	cat $CURRENT/data/news.dat >> $CURRENT/rules/newsrules.txt
+	
+	echo "Generating otherrules.txt ..."
+	echo -e "[Adblock Plus 2.0]\n! Expires: 1 days" > $CURRENT/rules/otherrules.txt
+	echo -e "! Last update: $TIMESTAMP" >> $CURRENT/rules/otherrules.txt
+	echo -e "! Misc stuff\n" >> $CURRENT/rules/otherrules.txt
+	cat $CURRENT/data/misc.dat >> $CURRENT/rules/otherrules.txt
+	echo -e "\n! Other stuff\n" >> $CURRENT/rules/otherrules.txt
+	cat $CURRENT/data/others.dat >> $CURRENT/rules/otherrules.txt
 	
 	if [ -N $CURRENT/data/socialmedia.dat ]
 	then

@@ -1,6 +1,3 @@
-! Amazon text ads
-@@||amazon.com^$elemhide
-@@||amazon.de^$elemhide
 ! Google search ads
 @@||www.google.com^$elemhide,~third-party
 ||www.google.com/images/phd/px.gif
@@ -24,5 +21,3 @@
 @@||pagead2.googlesyndication.com^$domain=googleads.g.doubleclick.net,~object
 @@||doubleclick.net^$domain=googleads.g.doubleclick.net,~object
 @@||google.com/pagead/$domain=googleads.g.doubleclick.net,~object
-! DuckDuckGo
-@@||duckduckgo.com/y.js?*
