@@ -4,6 +4,8 @@
 @@||doubleclick.net^$domain=stadt-bremerhaven.de,~object
 @@||pagead2.googlesyndication.com/*$domain=stadt-bremerhaven.de,~object
 @@||stadt-bremerhaven.de/grafiken/*
+@@||stadt-bremerhaven.de^$elemhide
+@@||banner.hosteurope.de^$domain=stadt-bremerhaven.de,~object
 ! Perun.net
 @@||perun.net/wp-content/uploads/*$domain=perun.net,~object
 ! blog.wpde.org
@@ -28,3 +30,6 @@
 @@||doubleclick.net^$domain=netzpolitik.org,~object
 @@||pagead2.googlesyndication.com^$domain=netzpolitik.org,~object
 @@||netzpolitik.org^$elemhide
+! Der Grabsteinschubser
+@@||admin.df.eu/pics/*$domain=grabsteinschubser.de,~object
+@@||getdigital.de/banner/*$domain=grabsteinschubser.de,~object

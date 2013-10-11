@@ -13,3 +13,20 @@
 @@||pagead2.googlesyndication.com^$domain=radioeins.com,~object
 @@||doubleclick.net^$domain=radioeins.com,~object
 @@||radioeins.com^$elemhide
+! Google search ads
+@@||www.google.com^$elemhide,~third-party
+||www.google.com/images/phd/px.gif
+@@||www.google.de^$elemhide,~third-party
+||www.google.de/images/phd/px.gif
+@@||www.google.at^$elemhide,~third-party
+||www.google.at/images/phd/px.gif
+! Google Maps
+@@||maps.google.com^$elemhide
+@@||maps.google.com^$~third-party
+@@||maps.google.at^$elemhide
+@@||maps.google.at^$~third-party
+@@||maps.google.de^$elemhide
+@@||maps.google.de^$~third-party
+! Google Static
+@@||gstatic.com^$document
+@@||gstatic.com^$third-party
