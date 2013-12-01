@@ -9,7 +9,7 @@ then
 	/usr/bin/rm -f $CURRENT/rules/exceptionrules.txt
 fi
 
-if [ -N $CURRENT/data/misc.dat ] || [ -N $CURRENT/data/blogs.dat ] || [ -N $CURRENT/data/news.dat ] || [ -N $CURRENT/data/socialmedia.dat ]
+if [ -N $CURRENT/data/misc.dat ] || [ -N $CURRENT/data/others.dat ] || [ -N $CURRENT/data/blogs.dat ] || [ -N $CURRENT/data/news.dat ] || [ -N $CURRENT/data/socialmedia.dat ]
 then
 	echo "Generating exceptionrules.txt ..."
 	echo -e "[Adblock Plus 2.0]\n! Expires: 1 days" > $CURRENT/rules/exceptionrules.txt
