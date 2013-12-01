@@ -42,3 +42,13 @@
 ! Der Grabsteinschubser
 @@||admin.df.eu/pics/*$domain=grabsteinschubser.de,~object
 @@||getdigital.de/banner/*$domain=grabsteinschubser.de,~object
+! Sparbaby
+@@||ads.commonmedia.de/?*$domain=sparbaby.de,~object
+@@||criteo.com^$domain=sparbaby.de,~object
+@@||wwe-media.de^$domain=sparbaby.de,~object
+@@||ads.notfix.de^$domain=sparbaby.de,~object
+@@||doubleclick.net^$domain=sparbaby.de,~object
+@@||googlesyndication.com^$domain=sparbaby.de,~object
+@@||google.com/pagead/drt/*$domain=sparbaby.de,~object
+@@||google.com^$domain=googleads.g.doubleclick.net,~object
+@@||adform.net^$domain=sparbaby.de,~object
