@@ -4,3 +4,4 @@
 @@||pagead2.googlesyndication.com^$domain=googleads.g.doubleclick.net,~object
 @@||doubleclick.net^$domain=googleads.g.doubleclick.net,~object
 @@||google.com/pagead/$domain=googleads.g.doubleclick.net,~object
+@@||google.com^$domain=googleads.g.doubleclick.net,~object
