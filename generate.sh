@@ -23,27 +23,27 @@ then
 	echo -e "\n! Other stuff\n" >> $CURRENT/rules/exceptionrules.txt
 	cat $CURRENT/data/others.dat >> $CURRENT/rules/exceptionrules.txt	
 	
+	echo "Generating commons.txt ..."
+	echo -e "[Adblock Plus 2.0]\n! Expires: 1 days" > $CURRENT/rules/commons.txt
+	echo -e "! Last update: $TIMESTAMP" >> $CURRENT/rules/commons.txt
+	echo -e "! Common filters" >> $CURRENT/rules/commons.txt
+	cat $CURRENT/data/misc.dat >> $CURRENT/rules/commons.txt
+	
 	echo "Generating blogrules.txt ..."
 	echo -e "[Adblock Plus 2.0]\n! Expires: 1 days" > $CURRENT/rules/blogrules.txt
 	echo -e "! Last update: $TIMESTAMP" >> $CURRENT/rules/blogrules.txt
-	echo -e "! Misc stuff" >> $CURRENT/rules/blogrules.txt
-	cat $CURRENT/data/misc.dat >> $CURRENT/rules/blogrules.txt
 	echo -e "! Blogs" >> $CURRENT/rules/blogrules.txt
 	cat $CURRENT/data/blogs.dat >> $CURRENT/rules/blogrules.txt
 	
 	echo "Generating newsrules.txt ..."
 	echo -e "[Adblock Plus 2.0]\n! Expires: 1 days" > $CURRENT/rules/newsrules.txt
 	echo -e "! Last update: $TIMESTAMP" >> $CURRENT/rules/newsrules.txt
-	echo -e "! Misc stuff" >> $CURRENT/rules/newsrules.txt
-	cat $CURRENT/data/misc.dat >> $CURRENT/rules/newsrules.txt
 	echo -e "! News" >> $CURRENT/rules/newsrules.txt
 	cat $CURRENT/data/news.dat >> $CURRENT/rules/newsrules.txt
 	
 	echo "Generating otherrules.txt ..."
 	echo -e "[Adblock Plus 2.0]\n! Expires: 1 days" > $CURRENT/rules/otherrules.txt
 	echo -e "! Last update: $TIMESTAMP" >> $CURRENT/rules/otherrules.txt
-	echo -e "! Misc stuff" >> $CURRENT/rules/otherrules.txt
-	cat $CURRENT/data/misc.dat >> $CURRENT/rules/otherrules.txt
 	echo -e "! Other stuff" >> $CURRENT/rules/otherrules.txt
 	cat $CURRENT/data/others.dat >> $CURRENT/rules/otherrules.txt
 	
