@@ -54,6 +54,7 @@ then
 			/usr/bin/rm -f $CURRENT/rules/social.txt
 		fi
 	
+		echo "Generating social.txt ..."
 		echo -e "[Adblock Plus 2.0]\n! Expires: 1 days" > $CURRENT/rules/social.txt
 		echo -e "! Last update: $TIMESTAMP" >> $CURRENT/rules/social.txt
 		cat $CURRENT/data/socialmedia.dat >> $CURRENT/rules/social.txt
