@@ -43,6 +43,7 @@
 @@||admin.df.eu/pics/*$domain=grabsteinschubser.de,~object
 @@||getdigital.de/banner/*$domain=grabsteinschubser.de,~object
 ! Sparbaby
+@@||sparbaby.de^$elemhide
 @@||ads.commonmedia.de/?*$domain=sparbaby.de,~object
 @@||criteo.com^$domain=sparbaby.de,~object
 @@||wwe-media.de^$domain=sparbaby.de,~object
