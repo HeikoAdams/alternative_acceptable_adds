@@ -50,3 +50,26 @@
 @@||doubleclick.net^$domain=sueddeutsche.de,~object
 @@||pagead2.googlesyndication.com^$domain=sueddeutsche.de,~object
 @@||bs.serving-sys.com^$domain=sueddeutsche.de,~object
+! FAZ
+@@||faz.net^$elemhide
+@@||static.faz.net^$domain=faz.net,~object
+@@||doubleclick.net^$domain=faz.net,~object
+@@||pagead2.googlesyndication.com^$domain=faz.net,~object
+@@||nuggad.net^$domain=faz.net,~object
+@@||yieldlab.net^$domain=faz.net,~object
+@@||adition.com^$domain=faz.net,~object
+@@||krxd.net^$domain=faz.net,~object
+@@||pagead2.googlesyndication.com^$domain=faz.net
+@@||revsci.net^$domain=faz.net,~object
+@@||2mdn.net^$domain=faz.net,~object
+@@||imagesrv.adition.com^$domain=ad3.adfarm1.adition.com
+@@||flashtalking.com^$domain=faz.net,~object
+@@||qservz.com^$domain=faz.net,~object
+@@||flashtalking.com^$domain=faz.net
+@@||serving-sys.com^$domain=faz.net,~object
+@@||360yield.com^$domain=faz.net,~object
+@@||ligatus.com^$domain=faz.net,~object
+@@||gmads.net^$domain=faz.net,~object
+@@||flashtalking.com^$domain=faz.net,~object
+@@||ligatus.com^$domain=a.ligatus.com,~object
+@@||affiliates.hse24.de^$domain=faz.net,~object
