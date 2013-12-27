@@ -4,10 +4,7 @@ CURRENTPATH=`realpath $0`
 CURRENT=`dirname $CURRENTPATH`
 TIMESTAMP=$(date)
 
-if [ -e $CURRENT/rules/exceptionrules.txt ]
-then
-	/usr/bin/rm -f $CURRENT/rules/exceptionrules.txt
-fi
+/usr/bin/rm -f $CURRENT/rules/exceptionrules.txt
 
 if [ -N $CURRENT/data/misc.dat ] || [ -N $CURRENT/data/others.dat ] || [ -N $CURRENT/data/blogs.dat ] || [ -N $CURRENT/data/news.dat ] || [ -N $CURRENT/data/socialmedia.dat ]
 then
