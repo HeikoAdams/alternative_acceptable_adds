@@ -7,7 +7,18 @@
 @@||cpx.golem.de^$domain=golem.de,~object
 @@||nuggad.net^$domain=golem.de,~object
 @@||golem.de/*$domain=golem.de,~object
+@@||servedby.flashtalking.com^$domain=golem.de,~object
+@@||cdn.flashtalking.com^$~object,domain=golem.de
+@@||bs.serving-sys.com^$domain=golem.de,~object
+@@||stat.flashtalking.com^$domain=golem.de,~object
 ! FutureZone.at
+@@||futurezone.at^$elemhide
+@@||pubads.g.doubleclick.net^$domain=futurezone.at,~object
+@@||view.atdmt.com^$domain=futurezone.at,~object
+@@||cdn.atdmt.com^$domain=futurezone.at,~object
+@@||revsci.net^$domain=futurezone.at,~object
+@@||adform.net^$domain=futurezone.at,~object
+@@||pagead2.googlesyndication.com^$domain=futurezone.at,~object
 @@||wa.kurier.at^$domain=futurezone.at
 ! Heise.de
 @@||heise.de^$elemhide
@@ -18,6 +29,8 @@
 @@||ad.yieldlab.net^$domain=heise.de,~object
 @@||whitepaper.heise.de^$domain=heise.de,~object
 @@||a.ligatus.com^$domain=heise.de,~object
+@@||counts.yieldlab.net^$domain=heise.de,~object
+@@||google.com/pagead/drt/*$domain=heise.de,~object
 ! ON-Online.de
 @@||on-online.de/openx/*$domain=on-online.de,~object
 @@||oz-online.de/openx/*$domain=on-online.de,~object
@@ -33,6 +46,13 @@
 @@||ad.cicero-media.de^$domain=np-coburg.de,~object
 @@||doubleclick.net^$domain=np-coburg.de,~object
 @@||np-coburg.de^$elemhide
+@@||adition.com^$domain=np-coburg.de,~object
+@@||bs.serving-sys.com^$domain=np-coburg.de,~object
+@@||imagesrv.adition.com^$domain=np-coburg.de,~object
+@@||revsci.net^$domain=np-coburg.de,~object
+@@||nuggad.net^$domain=np-coburg.de,~object
+@@||pagead2.googlesyndication.com^$domain=np-coburg.de,~object
+@@||ds.serving-sys.com^$domain=np-coburg.de,~object
 ! inFranken.de
 @@||doubleclick.net^$domain=infranken.de,~object
 @@||infranken.de/fileadmin/werbemittel/*$domain=infranken.de,~object
@@ -73,3 +93,13 @@
 @@||flashtalking.com^$domain=faz.net,~object
 @@||ligatus.com^$domain=a.ligatus.com,~object
 @@||affiliates.hse24.de^$domain=faz.net,~object
+! DerStandard.at
+@@||derstandard.at^$elemhide
+@@||derstandard.at/MetaAdServer/*$domain=derstandard.at,~object
+@@||derstandard.nuggad.net^$domain=derstandard.at,~object
+@@||austria1.adverserve.net^$domain=derstandard.at,~object
+@@||ad1.adfarm1.adition.com^$domain=derstandard.at,~object
+@@||imagesrv.adition.com^$domain=derstandard.at,~object
+@@||adfarm1.adition.com^$domain=derstandard.at,~object
+@@||derstandard.at/AdServer/*$domain=derstandard.at,~object
+@@||derstandard.at/anzeiger/*$domain=derstandard.at,~object
