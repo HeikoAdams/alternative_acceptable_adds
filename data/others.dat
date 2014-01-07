@@ -34,3 +34,18 @@
 @@||pagead2.googlesyndication.com^$domain=fachinformatiker.de,~object
 @@||fachinformatiker.de^$domain=fachinformatiker.de,~object
 @@||googleads.g.doubleclick.net^$domain=fachinformatiker.de,~object
+! Das Örtliche
+@@||dasoertliche.de^$elemhide
+@@||ad.de.doubleclick.net^$domain=dasoertliche.de,~object
+@@||emediate.eu^$domain=dasoertliche.de,~object
+@@||pagead2.googlesyndication.com^$domain=dasoertliche.de,~object
+@@||oe-static.de^$domain=dasoertliche.de,~object
+@@||dasoertliche.de^$domain=dasoertliche.de,~object
+@@||werbung.lokale-internetwerbung.de^$domain=dasoertliche.de,~object
+@@||ad.yieldlab.net^$domain=dasoertliche.de,~object
+@@||marktjagd.de^$domain=dasoertliche.de,~object
+@@||adscale.de^$domain=dasoertliche.de,~object
+@@||ad.turn.com^$domain=dasoertliche.de,~object
+@@||ligatus.com^$domain=dasoertliche.de,~object
+@@||adscale.nuggad.net^$domain=dasoertliche.de,~object
+@@||ad.yieldlab.net^$domain=cdn.turn.com,~object
