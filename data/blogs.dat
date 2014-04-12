@@ -53,3 +53,7 @@
 @@||google.com/pagead/drt/*$domain=sparbaby.de,~object
 @@||google.com^$domain=googleads.g.doubleclick.net,~object
 @@||adform.net^$domain=sparbaby.de,~object
+! World of Gnome
+@@||pagead2.googlesyndication.com^$~object,domain=worldofgnome.org
+@@||tempest.services.disqus.com^$domain=disqus.com,~object
+@@||doubleclick.net^$domain=worldofgnome.org,~object
