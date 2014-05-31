@@ -3,6 +3,7 @@
 @@||amazon.de^$elemhide
 ! DuckDuckGo
 @@||duckduckgo.com/y.js?*
+@@||duckduckgo.com^$elemhide
 ! Rossmann Versand
 @@||ad.zanox.com^$domain=rossmannversand.de,~object
 ! Dawanda
