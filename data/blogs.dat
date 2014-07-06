@@ -4,14 +4,14 @@
 @@||doubleclick.net^$domain=stadt-bremerhaven.de,~object
 @@||pagead2.googlesyndication.com/*$domain=stadt-bremerhaven.de,~object
 @@||stadt-bremerhaven.de/grafiken/*
-@@||stadt-bremerhaven.de^$elemhide
+@@||stadt-bremerhaven.de^$elemhide,~object
 @@||banner.hosteurope.de^$domain=stadt-bremerhaven.de,~object
 @@||google.com/pagead/drt/*$domain=stadt-bremerhaven.de,~object
 @@||2mdn.net^$domain=stadt-bremerhaven.de,~object
 @@||netzathleten-media.de^$domain=stadt-bremerhaven.de,~object
 @@||atdmt.com^$domain=stadt-bremerhaven.de,~object
 @@||google.com^$domain=stadt-bremerhaven.de,~object
-@@||atdmt.com^$domain=view.atdmt.com
+@@||atdmt.com^$domain=view.atdmt.com,~object
 @@||verticaltechmedia.de^$domain=stadt-bremerhaven.de,~object
 ! Perun.net
 @@||perun.net/wp-content/uploads/*$domain=perun.net,~object
