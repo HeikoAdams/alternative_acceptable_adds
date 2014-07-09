@@ -35,6 +35,9 @@
 @@||googleads.g.doubleclick.net^$domain=mamamiez.de,~object
 @@||limango.de^$domain=mamamiez.de,~object
 @@||angebote.toysrus.glispa.com^$domain=mamamiez.de,~object
+@@||mamamiez.de^$elemhide
+@@||banners.contentfeed.net^$domain=mamamiez.de,~object
+@@||cdn.jako-o.de^$domain=mamamiez.de,~object
 ! Bunte Knete
 @@||pagead2.googlesyndication.com^$domain=bunteknete.blogspot.de,~object
 @@||doubleclick.net^$domain=bunteknete.blogspot.de,~object
@@ -71,3 +74,6 @@
 @@||flashtalking.com^$~object,domain=lawblog.de
 @@||serving-sys.com^$domain=lawblog.de,~object
 @@||adition.com^$domain=lawblog.de,~object
+! Mamablog Mamamia
+@@||mamablog-mamamia.com^$domain=mamablog-mamamia.com,~object
+
