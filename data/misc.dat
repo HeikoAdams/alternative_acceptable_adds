@@ -13,3 +13,6 @@
 @@||ad2.adfarm1.adition.com^$domain=a.ligatus.com,~object
 ! AdTech
 @@||adtech.de^$domain=ad.de.doubleclick.net,~object
+! Plista
+@@||ads.heias.com^$domain=farm.plista.com,~object
+@@||ads.newtention.net^$~object,domain=farm.plista.com

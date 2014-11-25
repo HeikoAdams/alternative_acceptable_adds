@@ -32,9 +32,11 @@
 @@||gstatic.com^$document
 @@||gstatic.com^$third-party
 ! Fachinformatiker.de
-@@||pagead2.googlesyndication.com^$domain=fachinformatiker.de,~object
 @@||fachinformatiker.de^$domain=fachinformatiker.de,~object
-@@||googleads.g.doubleclick.net^$domain=fachinformatiker.de,~object
+@@||fachinformatiker.de^$elemhide
+@@||doubleclick.net^$domain=fachinformatiker.de,~object
+@@||google.com^$domain=fachinformatiker.de,~object
+@@||pagead2.googlesyndication.com^$domain=fachinformatiker.de
 ! Das Örtliche
 @@||dasoertliche.de^$elemhide
 @@||ad.de.doubleclick.net^$domain=dasoertliche.de,~object

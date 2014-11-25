@@ -103,3 +103,13 @@
 @@||adfarm1.adition.com^$domain=derstandard.at,~object
 @@||derstandard.at/AdServer/*$domain=derstandard.at,~object
 @@||derstandard.at/anzeiger/*$domain=derstandard.at,~object
+@@||derstandard.at/css/*$domain=derstandard.at
+@@||images.derstandard.at^$domain=derstandard.at,~object
+@@||derstandard.at/img/adv/*$domain=derstandard.at,~object
+! Pro-Linux
+@@||pro-linux.de^$elemhide
+@@||adserver.idg.de^$domain=pro-linux.de,~object
+@@||pagead2.googlesyndication.com^$domain=pro-linux.de,~object
+@@||pro-linux.de^$domain=pro-linux.de,~object
+@@||doubleclick.net^$domain=pro-linux.de,~object
+@@||google.com^$domain=pro-linux.de,~object
