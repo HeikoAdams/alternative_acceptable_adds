@@ -13,6 +13,8 @@
 @@||google.com^$domain=stadt-bremerhaven.de,~object
 @@||atdmt.com^$domain=view.atdmt.com,~object
 @@||verticaltechmedia.de^$domain=stadt-bremerhaven.de,~object
+@@||krxd.net^$domain=stadt-bremerhaven.de,~object
+@@||revsci.net^$domain=stadt-bremerhaven.de,~object
 ! Perun.net
 @@||perun.net/wp-content/uploads/*$domain=perun.net,~object
 ! blog.wpde.org
