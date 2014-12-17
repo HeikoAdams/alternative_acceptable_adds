@@ -1,6 +1,7 @@
 ! Amazon text ads
 @@||amazon.com^$elemhide
 @@||amazon.de^$elemhide
+@@||amazon-adsystem.com^$~object,domain=amazon.de
 ! DuckDuckGo
 @@||duckduckgo.com/y.js?*
 @@||duckduckgo.com^$elemhide
@@ -52,3 +53,4 @@
 @@||ligatus.com^$domain=dasoertliche.de,~object
 @@||adscale.nuggad.net^$domain=dasoertliche.de,~object
 @@||ad.yieldlab.net^$domain=cdn.turn.com,~object
+@@||ad.doubleclick.net^$domain=dasoertliche.de,~object
