@@ -78,4 +78,8 @@
 @@||adition.com^$domain=lawblog.de,~object
 ! Mamablog Mamamia
 @@||mamablog-mamamia.com^$domain=mamablog-mamamia.com,~object
+! BildBlog
+@@||bildblog.de^$elemhide,~object
+@@||mpn-analytics.mokonocdn.com^$domain=bildblog.de,~object
+@@||stilanzeigen.net^$domain=bildblog.de,~object
 
