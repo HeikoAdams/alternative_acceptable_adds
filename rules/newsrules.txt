@@ -1,0 +1,119 @@
+[Adblock Plus 2.0]
+! Expires: 1 days
+! Last update: Mi 24. Dez 16:55:16 CET 2014
+! News
+! Golem.de
+@@||golem.de^$elemhide
+@@||doubleclick.net^$domain=golem.de,~object
+@@||pagead2.googlesyndication.com^$domain=golem.de,~object
+@@||a.ligatus.com^$domain=golem.de,~object
+@@||adfarm.mediaplex.com^$domain=golem.de,~object
+@@||cpx.golem.de^$domain=golem.de,~object
+@@||nuggad.net^$domain=golem.de,~object
+@@||golem.de/*$domain=golem.de,~object
+@@||servedby.flashtalking.com^$domain=golem.de,~object
+@@||cdn.flashtalking.com^$~object,domain=golem.de
+@@||bs.serving-sys.com^$domain=golem.de,~object
+@@||stat.flashtalking.com^$domain=golem.de,~object
+! FutureZone.at
+@@||futurezone.at^$elemhide
+@@||pubads.g.doubleclick.net^$domain=futurezone.at,~object
+@@||view.atdmt.com^$domain=futurezone.at,~object
+@@||cdn.atdmt.com^$domain=futurezone.at,~object
+@@||revsci.net^$domain=futurezone.at,~object
+@@||adform.net^$domain=futurezone.at,~object
+@@||pagead2.googlesyndication.com^$domain=futurezone.at,~object
+@@||wa.kurier.at^$domain=futurezone.at
+! Heise.de
+@@||heise.de^$elemhide
+@@||doubleclick.net^$domain=heise.de,~object
+@@||pagead2.googlesyndication.com^$domain=heise.de,~object
+@@||heise.de/icons/ho/*$domain=heise.de,~object
+@@||heisebanner.geizhals.at^$domain=heise.de,~object
+@@||ad.yieldlab.net^$domain=heise.de,~object
+@@||whitepaper.heise.de^$domain=heise.de,~object
+@@||a.ligatus.com^$domain=heise.de,~object
+@@||counts.yieldlab.net^$domain=heise.de,~object
+@@||google.com/pagead/drt/*$domain=heise.de,~object
+! ON-Online.de
+@@||on-online.de/openx/*$domain=on-online.de,~object
+@@||oz-online.de/openx/*$domain=on-online.de,~object
+@@||pagead2.googlesyndication.com^$domain=on-online.de,~object
+@@||doubleclick.net^$domain=on-online.de,~object
+! OZ-Online.de
+@@||oz-online.de/openx/*$domain=oz-online.de,~object
+@@||pagead2.googlesyndication.com^$domain=oz-online.de,~object
+@@||googleads.g.doubleclick.net^$domain=oz-online.de,~object
+! Common exception for on-online.de and oz-online.de
+@@||oz-online.de/openx/*$~object
+! NP-Coburg.de
+@@||ad.cicero-media.de^$domain=np-coburg.de,~object
+@@||doubleclick.net^$domain=np-coburg.de,~object
+@@||np-coburg.de^$elemhide
+@@||adition.com^$domain=np-coburg.de,~object
+@@||bs.serving-sys.com^$domain=np-coburg.de,~object
+@@||imagesrv.adition.com^$domain=np-coburg.de,~object
+@@||revsci.net^$domain=np-coburg.de,~object
+@@||nuggad.net^$domain=np-coburg.de,~object
+@@||pagead2.googlesyndication.com^$domain=np-coburg.de,~object
+@@||ds.serving-sys.com^$domain=np-coburg.de,~object
+! inFranken.de
+@@||doubleclick.net^$domain=infranken.de,~object
+@@||infranken.de/fileadmin/werbemittel/*$domain=infranken.de,~object
+@@||infranken.de^$elemhide
+! Rhein-Zeitung
+@@||rhein-zeitung.de^$elemhide
+@@||doubleclick.net^$domain=rhein-zeitung.de,~object
+@@||pagead2.googlesyndication.com^$domain=rhein-zeitung.de,~object
+! Zeit Online
+@@||zeit.de^$elemhide
+@@||doubleclick.net^$domain=zeit.de,~object
+@@||googlesyndication.com^$domain=zeit.de,~object
+! Sueddeutsche
+@@||sueddeutsche.de^$elemhide
+@@||doubleclick.net^$domain=sueddeutsche.de,~object
+@@||pagead2.googlesyndication.com^$domain=sueddeutsche.de,~object
+@@||bs.serving-sys.com^$domain=sueddeutsche.de,~object
+! FAZ
+@@||faz.net^$elemhide
+@@||static.faz.net^$domain=faz.net,~object
+@@||doubleclick.net^$domain=faz.net,~object
+@@||pagead2.googlesyndication.com^$domain=faz.net,~object
+@@||nuggad.net^$domain=faz.net,~object
+@@||yieldlab.net^$domain=faz.net,~object
+@@||adition.com^$domain=faz.net,~object
+@@||krxd.net^$domain=faz.net,~object
+@@||pagead2.googlesyndication.com^$domain=faz.net
+@@||revsci.net^$domain=faz.net,~object
+@@||2mdn.net^$domain=faz.net,~object
+@@||imagesrv.adition.com^$domain=ad3.adfarm1.adition.com
+@@||flashtalking.com^$domain=faz.net,~object
+@@||qservz.com^$domain=faz.net,~object
+@@||flashtalking.com^$domain=faz.net
+@@||serving-sys.com^$domain=faz.net,~object
+@@||360yield.com^$domain=faz.net,~object
+@@||ligatus.com^$domain=faz.net,~object
+@@||gmads.net^$domain=faz.net,~object
+@@||flashtalking.com^$domain=faz.net,~object
+@@||ligatus.com^$domain=a.ligatus.com,~object
+@@||affiliates.hse24.de^$domain=faz.net,~object
+! DerStandard.at
+@@||derstandard.at^$elemhide
+@@||derstandard.at/MetaAdServer/*$domain=derstandard.at,~object
+@@||derstandard.nuggad.net^$domain=derstandard.at,~object
+@@||austria1.adverserve.net^$domain=derstandard.at,~object
+@@||ad1.adfarm1.adition.com^$domain=derstandard.at,~object
+@@||imagesrv.adition.com^$domain=derstandard.at,~object
+@@||adfarm1.adition.com^$domain=derstandard.at,~object
+@@||derstandard.at/AdServer/*$domain=derstandard.at,~object
+@@||derstandard.at/anzeiger/*$domain=derstandard.at,~object
+@@||derstandard.at/css/*$domain=derstandard.at
+@@||images.derstandard.at^$domain=derstandard.at,~object
+@@||derstandard.at/img/adv/*$domain=derstandard.at,~object
+! Pro-Linux
+@@||pro-linux.de^$elemhide
+@@||adserver.idg.de^$domain=pro-linux.de,~object
+@@||pagead2.googlesyndication.com^$domain=pro-linux.de,~object
+@@||pro-linux.de^$domain=pro-linux.de,~object
+@@||doubleclick.net^$domain=pro-linux.de,~object
+@@||google.com^$domain=pro-linux.de,~object

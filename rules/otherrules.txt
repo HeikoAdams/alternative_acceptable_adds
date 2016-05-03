@@ -1,0 +1,60 @@
+[Adblock Plus 2.0]
+! Expires: 1 days
+! Last update: Mi 24. Dez 16:55:16 CET 2014
+! Other stuff
+! Amazon text ads
+@@||amazon.com^$elemhide
+@@||amazon.de^$elemhide
+@@||amazon-adsystem.com^$~object,domain=amazon.de
+! DuckDuckGo
+@@||duckduckgo.com/y.js?*
+@@||duckduckgo.com^$elemhide
+! Rossmann Versand
+@@||ad.zanox.com^$domain=rossmannversand.de,~object
+! Dawanda
+@@||doubleclick.net^$domain=de.dawanda.com,~object
+! Werder Bremen
+@@||odmedia.net/openx/*$domain=werder.de,~object
+! Radio EINS Coburg
+@@||pagead2.googlesyndication.com^$domain=radioeins.com,~object
+@@||doubleclick.net^$domain=radioeins.com,~object
+@@||radioeins.com^$elemhide
+! Google search ads
+@@||www.google.com^$elemhide,~third-party
+||www.google.com/images/phd/px.gif
+@@||www.google.de^$elemhide,~third-party
+||www.google.de/images/phd/px.gif
+@@||www.google.at^$elemhide,~third-party
+||www.google.at/images/phd/px.gif
+! Google Maps
+@@||maps.google.com^$elemhide
+@@||maps.google.com^$~third-party
+@@||maps.google.at^$elemhide
+@@||maps.google.at^$~third-party
+@@||maps.google.de^$elemhide
+@@||maps.google.de^$~third-party
+! Google Static
+@@||gstatic.com^$document
+@@||gstatic.com^$third-party
+! Fachinformatiker.de
+@@||fachinformatiker.de^$domain=fachinformatiker.de,~object
+@@||fachinformatiker.de^$elemhide
+@@||doubleclick.net^$domain=fachinformatiker.de,~object
+@@||google.com^$domain=fachinformatiker.de,~object
+@@||pagead2.googlesyndication.com^$domain=fachinformatiker.de
+! Das Örtliche
+@@||dasoertliche.de^$elemhide
+@@||ad.de.doubleclick.net^$domain=dasoertliche.de,~object
+@@||emediate.eu^$domain=dasoertliche.de,~object
+@@||pagead2.googlesyndication.com^$domain=dasoertliche.de,~object
+@@||oe-static.de^$domain=dasoertliche.de,~object
+@@||dasoertliche.de^$domain=dasoertliche.de,~object
+@@||werbung.lokale-internetwerbung.de^$domain=dasoertliche.de,~object
+@@||ad.yieldlab.net^$domain=dasoertliche.de,~object
+@@||marktjagd.de^$domain=dasoertliche.de,~object
+@@||adscale.de^$domain=dasoertliche.de,~object
+@@||ad.turn.com^$domain=dasoertliche.de,~object
+@@||ligatus.com^$domain=dasoertliche.de,~object
+@@||adscale.nuggad.net^$domain=dasoertliche.de,~object
+@@||ad.yieldlab.net^$domain=cdn.turn.com,~object
+@@||ad.doubleclick.net^$domain=dasoertliche.de,~object

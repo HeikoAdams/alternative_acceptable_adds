@@ -1,0 +1,24 @@
+[Adblock Plus 2.0]
+! Expires: 1 days
+! Last update: Mi 24. Dez 16:55:16 CET 2014
+! Common filters
+! Google Ad Services
+@@||googleadservices.com^$document
+@@||googleadservices.com^$third-party
+@@||pagead2.googlesyndication.com^$domain=googleads.g.doubleclick.net,~object
+@@||pagead2.googlesyndication.com^$domain=ad.de.doubleclick.net,~object
+@@||pagead2.googlesyndication.com^$domain=googleads.g.doubleclick.net
+@@||doubleclick.net^$domain=ad.de.doubleclick.net,~object
+@@||doubleclick.net^$domain=googleads.g.doubleclick.net,~object
+@@||google.com/pagead/$domain=googleads.g.doubleclick.net,~object
+@@||google.com^$domain=googleads.g.doubleclick.net,~object
+! Adition
+@@||adition.com^$domain=ad2.adfarm1.adition.com,~object
+@@||ad2.adfarm1.adition.com^$domain=a.ligatus.com,~object
+! AdTech
+@@||adtech.de^$domain=ad.de.doubleclick.net,~object
+! Plista
+@@||ads.heias.com^$domain=farm.plista.com,~object
+@@||ads.newtention.net^$~object,domain=farm.plista.com
+! VG-Wort
+@@||vgwort.de^

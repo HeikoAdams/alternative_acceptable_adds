@@ -1,0 +1,292 @@
+[Adblock Plus 2.0]
+! Expires: 1 days
+! Last update: Mi 24. Dez 16:55:16 CET 2014
+! Misc stuff
+
+! Google Ad Services
+@@||googleadservices.com^$document
+@@||googleadservices.com^$third-party
+@@||pagead2.googlesyndication.com^$domain=googleads.g.doubleclick.net,~object
+@@||pagead2.googlesyndication.com^$domain=ad.de.doubleclick.net,~object
+@@||pagead2.googlesyndication.com^$domain=googleads.g.doubleclick.net
+@@||doubleclick.net^$domain=ad.de.doubleclick.net,~object
+@@||doubleclick.net^$domain=googleads.g.doubleclick.net,~object
+@@||google.com/pagead/$domain=googleads.g.doubleclick.net,~object
+@@||google.com^$domain=googleads.g.doubleclick.net,~object
+! Adition
+@@||adition.com^$domain=ad2.adfarm1.adition.com,~object
+@@||ad2.adfarm1.adition.com^$domain=a.ligatus.com,~object
+! AdTech
+@@||adtech.de^$domain=ad.de.doubleclick.net,~object
+! Plista
+@@||ads.heias.com^$domain=farm.plista.com,~object
+@@||ads.newtention.net^$~object,domain=farm.plista.com
+! VG-Wort
+@@||vgwort.de^
+
+! Blogs
+
+! IndiskretionEhrensache,de
+@@||stilanzeigen.net/*$domain=indiskretionehrensache.de,~object
+! Stadt-Bremerhaven,de (Cashy)
+@@||doubleclick.net^$domain=stadt-bremerhaven.de,~object
+@@||pagead2.googlesyndication.com/*$domain=stadt-bremerhaven.de,~object
+@@||stadt-bremerhaven.de/grafiken/*
+@@||stadt-bremerhaven.de^$elemhide,~object
+@@||banner.hosteurope.de^$domain=stadt-bremerhaven.de,~object
+@@||google.com/pagead/drt/*$domain=stadt-bremerhaven.de,~object
+@@||2mdn.net^$domain=stadt-bremerhaven.de,~object
+@@||netzathleten-media.de^$domain=stadt-bremerhaven.de,~object
+@@||atdmt.com^$domain=stadt-bremerhaven.de,~object
+@@||google.com^$domain=stadt-bremerhaven.de,~object
+@@||atdmt.com^$domain=view.atdmt.com,~object
+@@||verticaltechmedia.de^$domain=stadt-bremerhaven.de,~object
+@@||krxd.net^$domain=stadt-bremerhaven.de,~object
+@@||revsci.net^$domain=stadt-bremerhaven.de,~object
+! Perun.net
+@@||perun.net/wp-content/uploads/*$domain=perun.net,~object
+! blog.wpde.org
+@@||blog.wpde.org/wp-content/themes/wpde/img/*$domain=blog.wpde.org,~object
+@@||ads.inpsy.de^$domain=blog.wpde.org,~object
+! Linuxundich.de
+@@||linuxundich.de/wp-content/themes/yoko_lui/js/advert.js$domain=linuxundich.de,~object
+! MobileGeeks
+@@||pagead2.googlesyndication.com^$domain=mobilegeeks.de,~object
+@@||doubleclick.net^$domain=mobilegeeks.de,~object
+@@||assoc-amazon.de^$domain=mobilegeeks.de,~object
+! Mama Miez
+@@||banners.webmasterplan.com^$domain=mamamiez.de,~object
+@@||fraurieke.de/partner/*$domain=mamamiez.de
+@@||geburtstagsfee.de/images/partnerprogramm/*$domain=mamamiez.de
+@@||ad.zanox.com^$domain=mamamiez.de,~object
+@@||dawandaimages.s3.amazonaws.com^$domain=mamamiez.de,~object
+@@||amazon-adsystem.com^$domain=mamamiez.de,~object
+@@||pagead2.googlesyndication.com^$domain=mamamiez.de,~object
+@@||googleads.g.doubleclick.net^$domain=mamamiez.de,~object
+@@||limango.de^$domain=mamamiez.de,~object
+@@||angebote.toysrus.glispa.com^$domain=mamamiez.de,~object
+@@||mamamiez.de^$elemhide
+@@||banners.contentfeed.net^$domain=mamamiez.de,~object
+@@||cdn.jako-o.de^$domain=mamamiez.de,~object
+! Bunte Knete
+@@||pagead2.googlesyndication.com^$domain=bunteknete.blogspot.de,~object
+@@||doubleclick.net^$domain=bunteknete.blogspot.de,~object
+! Gutjahr.biz
+@@||gutjahr.biz/^$elemhide
+! Netzpolitik.org
+@@||doubleclick.net^$domain=netzpolitik.org,~object
+@@||pagead2.googlesyndication.com^$domain=netzpolitik.org,~object
+@@||netzpolitik.org^$elemhide
+@@||googlesyndication.com^$domain=netzpolitik.org,~object
+! Der Grabsteinschubser
+@@||admin.df.eu/pics/*$domain=grabsteinschubser.de,~object
+@@||getdigital.de/banner/*$domain=grabsteinschubser.de,~object
+! Sparbaby
+@@||sparbaby.de^$elemhide
+@@||ads.commonmedia.de/?*$domain=sparbaby.de,~object
+@@||criteo.com^$domain=sparbaby.de,~object
+@@||wwe-media.de^$domain=sparbaby.de,~object
+@@||ads.notfix.de^$domain=sparbaby.de,~object
+@@||doubleclick.net^$domain=sparbaby.de,~object
+@@||googlesyndication.com^$domain=sparbaby.de,~object
+@@||google.com/pagead/drt/*$domain=sparbaby.de,~object
+@@||google.com^$domain=googleads.g.doubleclick.net,~object
+@@||adform.net^$domain=sparbaby.de,~object
+! World of Gnome
+@@||pagead2.googlesyndication.com^$~object,domain=worldofgnome.org
+@@||tempest.services.disqus.com^$domain=disqus.com,~object
+@@||doubleclick.net^$domain=worldofgnome.org,~object
+@@||worldofgnome.org^$elemhide
+! LawBlog
+@@||lawblog.de^$elemhide
+@@||doubleclick.net^$domain=lawblog.de,~object
+@@||pagead2.googlesyndication.com^$domain=lawblog.de,~object
+@@||flashtalking.com^$~object,domain=lawblog.de
+@@||serving-sys.com^$domain=lawblog.de,~object
+@@||adition.com^$domain=lawblog.de,~object
+! Mamablog Mamamia
+@@||mamablog-mamamia.com^$domain=mamablog-mamamia.com,~object
+! BildBlog
+@@||bildblog.de^$elemhide,~object
+@@||mpn-analytics.mokonocdn.com^$domain=bildblog.de,~object
+@@||stilanzeigen.net^$domain=bildblog.de,~object
+
+
+! News
+
+! Golem.de
+@@||golem.de^$elemhide
+@@||doubleclick.net^$domain=golem.de,~object
+@@||pagead2.googlesyndication.com^$domain=golem.de,~object
+@@||a.ligatus.com^$domain=golem.de,~object
+@@||adfarm.mediaplex.com^$domain=golem.de,~object
+@@||cpx.golem.de^$domain=golem.de,~object
+@@||nuggad.net^$domain=golem.de,~object
+@@||golem.de/*$domain=golem.de,~object
+@@||servedby.flashtalking.com^$domain=golem.de,~object
+@@||cdn.flashtalking.com^$~object,domain=golem.de
+@@||bs.serving-sys.com^$domain=golem.de,~object
+@@||stat.flashtalking.com^$domain=golem.de,~object
+! FutureZone.at
+@@||futurezone.at^$elemhide
+@@||pubads.g.doubleclick.net^$domain=futurezone.at,~object
+@@||view.atdmt.com^$domain=futurezone.at,~object
+@@||cdn.atdmt.com^$domain=futurezone.at,~object
+@@||revsci.net^$domain=futurezone.at,~object
+@@||adform.net^$domain=futurezone.at,~object
+@@||pagead2.googlesyndication.com^$domain=futurezone.at,~object
+@@||wa.kurier.at^$domain=futurezone.at
+! Heise.de
+@@||heise.de^$elemhide
+@@||doubleclick.net^$domain=heise.de,~object
+@@||pagead2.googlesyndication.com^$domain=heise.de,~object
+@@||heise.de/icons/ho/*$domain=heise.de,~object
+@@||heisebanner.geizhals.at^$domain=heise.de,~object
+@@||ad.yieldlab.net^$domain=heise.de,~object
+@@||whitepaper.heise.de^$domain=heise.de,~object
+@@||a.ligatus.com^$domain=heise.de,~object
+@@||counts.yieldlab.net^$domain=heise.de,~object
+@@||google.com/pagead/drt/*$domain=heise.de,~object
+! ON-Online.de
+@@||on-online.de/openx/*$domain=on-online.de,~object
+@@||oz-online.de/openx/*$domain=on-online.de,~object
+@@||pagead2.googlesyndication.com^$domain=on-online.de,~object
+@@||doubleclick.net^$domain=on-online.de,~object
+! OZ-Online.de
+@@||oz-online.de/openx/*$domain=oz-online.de,~object
+@@||pagead2.googlesyndication.com^$domain=oz-online.de,~object
+@@||googleads.g.doubleclick.net^$domain=oz-online.de,~object
+! Common exception for on-online.de and oz-online.de
+@@||oz-online.de/openx/*$~object
+! NP-Coburg.de
+@@||ad.cicero-media.de^$domain=np-coburg.de,~object
+@@||doubleclick.net^$domain=np-coburg.de,~object
+@@||np-coburg.de^$elemhide
+@@||adition.com^$domain=np-coburg.de,~object
+@@||bs.serving-sys.com^$domain=np-coburg.de,~object
+@@||imagesrv.adition.com^$domain=np-coburg.de,~object
+@@||revsci.net^$domain=np-coburg.de,~object
+@@||nuggad.net^$domain=np-coburg.de,~object
+@@||pagead2.googlesyndication.com^$domain=np-coburg.de,~object
+@@||ds.serving-sys.com^$domain=np-coburg.de,~object
+! inFranken.de
+@@||doubleclick.net^$domain=infranken.de,~object
+@@||infranken.de/fileadmin/werbemittel/*$domain=infranken.de,~object
+@@||infranken.de^$elemhide
+! Rhein-Zeitung
+@@||rhein-zeitung.de^$elemhide
+@@||doubleclick.net^$domain=rhein-zeitung.de,~object
+@@||pagead2.googlesyndication.com^$domain=rhein-zeitung.de,~object
+! Zeit Online
+@@||zeit.de^$elemhide
+@@||doubleclick.net^$domain=zeit.de,~object
+@@||googlesyndication.com^$domain=zeit.de,~object
+! Sueddeutsche
+@@||sueddeutsche.de^$elemhide
+@@||doubleclick.net^$domain=sueddeutsche.de,~object
+@@||pagead2.googlesyndication.com^$domain=sueddeutsche.de,~object
+@@||bs.serving-sys.com^$domain=sueddeutsche.de,~object
+! FAZ
+@@||faz.net^$elemhide
+@@||static.faz.net^$domain=faz.net,~object
+@@||doubleclick.net^$domain=faz.net,~object
+@@||pagead2.googlesyndication.com^$domain=faz.net,~object
+@@||nuggad.net^$domain=faz.net,~object
+@@||yieldlab.net^$domain=faz.net,~object
+@@||adition.com^$domain=faz.net,~object
+@@||krxd.net^$domain=faz.net,~object
+@@||pagead2.googlesyndication.com^$domain=faz.net
+@@||revsci.net^$domain=faz.net,~object
+@@||2mdn.net^$domain=faz.net,~object
+@@||imagesrv.adition.com^$domain=ad3.adfarm1.adition.com
+@@||flashtalking.com^$domain=faz.net,~object
+@@||qservz.com^$domain=faz.net,~object
+@@||flashtalking.com^$domain=faz.net
+@@||serving-sys.com^$domain=faz.net,~object
+@@||360yield.com^$domain=faz.net,~object
+@@||ligatus.com^$domain=faz.net,~object
+@@||gmads.net^$domain=faz.net,~object
+@@||flashtalking.com^$domain=faz.net,~object
+@@||ligatus.com^$domain=a.ligatus.com,~object
+@@||affiliates.hse24.de^$domain=faz.net,~object
+! DerStandard.at
+@@||derstandard.at^$elemhide
+@@||derstandard.at/MetaAdServer/*$domain=derstandard.at,~object
+@@||derstandard.nuggad.net^$domain=derstandard.at,~object
+@@||austria1.adverserve.net^$domain=derstandard.at,~object
+@@||ad1.adfarm1.adition.com^$domain=derstandard.at,~object
+@@||imagesrv.adition.com^$domain=derstandard.at,~object
+@@||adfarm1.adition.com^$domain=derstandard.at,~object
+@@||derstandard.at/AdServer/*$domain=derstandard.at,~object
+@@||derstandard.at/anzeiger/*$domain=derstandard.at,~object
+@@||derstandard.at/css/*$domain=derstandard.at
+@@||images.derstandard.at^$domain=derstandard.at,~object
+@@||derstandard.at/img/adv/*$domain=derstandard.at,~object
+! Pro-Linux
+@@||pro-linux.de^$elemhide
+@@||adserver.idg.de^$domain=pro-linux.de,~object
+@@||pagead2.googlesyndication.com^$domain=pro-linux.de,~object
+@@||pro-linux.de^$domain=pro-linux.de,~object
+@@||doubleclick.net^$domain=pro-linux.de,~object
+@@||google.com^$domain=pro-linux.de,~object
+
+! Other stuff
+
+! Amazon text ads
+@@||amazon.com^$elemhide
+@@||amazon.de^$elemhide
+@@||amazon-adsystem.com^$~object,domain=amazon.de
+! DuckDuckGo
+@@||duckduckgo.com/y.js?*
+@@||duckduckgo.com^$elemhide
+! Rossmann Versand
+@@||ad.zanox.com^$domain=rossmannversand.de,~object
+! Dawanda
+@@||doubleclick.net^$domain=de.dawanda.com,~object
+! Werder Bremen
+@@||odmedia.net/openx/*$domain=werder.de,~object
+! Radio EINS Coburg
+@@||pagead2.googlesyndication.com^$domain=radioeins.com,~object
+@@||doubleclick.net^$domain=radioeins.com,~object
+@@||radioeins.com^$elemhide
+! Google search ads
+@@||www.google.com^$elemhide,~third-party
+||www.google.com/images/phd/px.gif
+@@||www.google.de^$elemhide,~third-party
+||www.google.de/images/phd/px.gif
+@@||www.google.at^$elemhide,~third-party
+||www.google.at/images/phd/px.gif
+! Google Maps
+@@||maps.google.com^$elemhide
+@@||maps.google.com^$~third-party
+@@||maps.google.at^$elemhide
+@@||maps.google.at^$~third-party
+@@||maps.google.de^$elemhide
+@@||maps.google.de^$~third-party
+! Google Static
+@@||gstatic.com^$document
+@@||gstatic.com^$third-party
+! Fachinformatiker.de
+@@||fachinformatiker.de^$domain=fachinformatiker.de,~object
+@@||fachinformatiker.de^$elemhide
+@@||doubleclick.net^$domain=fachinformatiker.de,~object
+@@||google.com^$domain=fachinformatiker.de,~object
+@@||pagead2.googlesyndication.com^$domain=fachinformatiker.de
+! Das Örtliche
+@@||dasoertliche.de^$elemhide
+@@||ad.de.doubleclick.net^$domain=dasoertliche.de,~object
+@@||emediate.eu^$domain=dasoertliche.de,~object
+@@||pagead2.googlesyndication.com^$domain=dasoertliche.de,~object
+@@||oe-static.de^$domain=dasoertliche.de,~object
+@@||dasoertliche.de^$domain=dasoertliche.de,~object
+@@||werbung.lokale-internetwerbung.de^$domain=dasoertliche.de,~object
+@@||ad.yieldlab.net^$domain=dasoertliche.de,~object
+@@||marktjagd.de^$domain=dasoertliche.de,~object
+@@||adscale.de^$domain=dasoertliche.de,~object
+@@||ad.turn.com^$domain=dasoertliche.de,~object
+@@||ligatus.com^$domain=dasoertliche.de,~object
+@@||adscale.nuggad.net^$domain=dasoertliche.de,~object
+@@||ad.yieldlab.net^$domain=cdn.turn.com,~object
+@@||ad.doubleclick.net^$domain=dasoertliche.de,~object
+
+

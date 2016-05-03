@@ -1,0 +1,19 @@
+[Adblock Plus 2.0]
+! Expires: 1 days
+! Last update: Mo 30. Dez 13:00:05 CET 2013
+! Facebook
+@@||facebook.com^$elemhide
+@@||fbcdn-creative-a.akamaihd.net^$domain=facebook.com,~object
+! Twitter
+@@||twitter.com^$elemhide
+! Xing
+@@||xing.com^$elemhide
+@@||doubleclick.net^$domain=xing.com,~object
+@@||adition.com^$domain=xing.com,~object
+@@||adtech.de^$domain=adc.xing-share.com,~object
+@@||adform.net^$domain=xing.com,~object
+@@||adform.net^$domain=xing.com
+@@||xing.com/css/xing/advertisements/*$domain=ad.de.doubleclick.net,~object
+@@||pagead2.googlesyndication.com^$domain=xing.com,~object
+
+
